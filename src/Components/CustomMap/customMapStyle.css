@@ -1,0 +1,25 @@
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 500px;
+}
+
+.locationBtn {
+    position: absolute;
+    left: 15px;
+    top: 100px;
+    z-index: 10000000;
+    border-radius: 5px;
+    border: 1px solid #a0a0a0da;
+    cursor: pointer;
+}
+
+.locationBtn img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
